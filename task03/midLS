@@ -1,0 +1,7 @@
+# la commande doit :
+	# - lister task03 (dossier & fichier)
+# la commande ne doit pas :
+	# - afficher les fichier cacher
+	# - afficher des ellipses
+	# - afficher les fichier comme : "." ".." ".name" "..name"
+ls -Acdflmp --file-type
